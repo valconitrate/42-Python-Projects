@@ -74,11 +74,11 @@ def hangman():
         word = word_list[rnd.randint(0, 5)]
         arr = []
         for x in word:
-            arr.append('_')
-        current = ''
-        while '_' in arr:
+            arr.append("_")
+        current = ""
+        while "_" in arr:
             print(current.join(arr))
-            guess = input('make a guess: ')
+            guess = input("make a guess: ")
             if guess in word:
                 for x, y in enumerate(word):
                     if y == guess:

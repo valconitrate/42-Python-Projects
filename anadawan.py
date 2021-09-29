@@ -1,3 +1,4 @@
-xd = 17
-xdd = 'hello'
-print(xd+xdd)
+ls = ["marco", "paolo", "lambino"]
+ls.append("pogi\
+")
+print(ls[3])
